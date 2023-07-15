@@ -1,0 +1,19 @@
+{
+    "source": {
+      "include": ["./controllers/users.js"],
+      "includePattern": ".+\\.js(doc)?$",
+      "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [],
+    "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+    },
+    "opts": {
+      "template": "node_modules/minami",
+      "encoding": "utf8",
+      "recurse": true,
+      "destination": "./docs/"
+    }
+  }
+  
